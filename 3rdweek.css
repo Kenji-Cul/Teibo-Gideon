@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+ul li{color:yellow;}
+ul{margin-top:30px;}
+.head{background-color:black;}
+      h1{color:Yellow;}
+.nav{background-image:url("programin7.jpeg");
+     background-size:100% 600px;
+     height:600px;}
+.inner-div{width:20%; height:40%; margin:auto;  border-radius:50%;
+           background-image:url("gideon.png");
+           background-size:100% 100%;}
+.inner-div2{width:60%; height:50%; margin:auto; background-color:rgb(0,0,0,0.8); border-radius:50px; 
+background:linear-gradient(145deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+backdrop-filter: blur(10px);}
+.footer{height:300px; border-radius:10px 10px 10px 10px; box-shadow:50%; background-color:#000000;}
+[type=text]{position:relative; right:100px;
+height:35px; width:270px; padding-left:px; background-color:#ccc; border:0px solid black;}
+[type="email"]{position:relative; right:100px; height:35px; width:270px; padding-left:px; background-color:#ccc; border:0px solid black;}
+[type="number"]{position:relative; right:100px; height:35px; width:270px; padding-left:px; background-color:#ccc; border:0px solid black;}
+[type="submit"]{position:relative; left:100px; bottom:10px; height:40px; width:285px; background-color:rgb(0,0,0,0.6); border:0px solid black; color:white;}
+[type="reset"]{position:relative; left:10px;}
+.container-fluid{background-image:url("programin4.jpeg"); 
+background-size:100% 1000px;}
+.about{width:80%; height:300px; margin:auto; background-color:rgb(0,0,0,0.8);
+background:linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+backdrop-filter:blur(10px);
+border-radius:30px 0px 30px 0px}
+.box{
+	margin:auto;
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+.box{
+	position:relative;
+	width:320px;
+	height:400px;
+	color:#fff;
+	background:#111;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:20px 30px;
+	transition:0.5%;
+	display:inline-block;
+	border-radius:30px 0px 30px 0px;
+}
+.box:hover{
+	transform:translateY(-20px);
+}
+.first{background-image:url("first.png");
+background-size:100% 400px;}
+.second{background-image:url("second.png");
+background-size:100% 400px;}
+.third{background-image:url("third.png");
+background-size:100% 400px;}
+.box{border:5px solid linear-gradient(45deg, #ffbc00, #ff0058);}
+ul li a{text-decoration:none;}
+</body>
+</html>
